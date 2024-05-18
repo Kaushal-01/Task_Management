@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socials of TaskManager</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="icon.jpeg" type="image/jpeg">
+    <!-- Include FontAwesome library -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<style>
+    body {
+        background-color: #343a40;
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+    }
+
+    .container {
+        max-width: 400px;
+        margin-top: 100px;
+    }
+
+    /* Consolidate button styles */
+    .button-style,
+    .btn-primary {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 5px;
+        background-color: #007BFF;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        border: 1px solid transparent;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .btn-primary:hover, .btn-primary:focus, .button-style:hover, .button-style:focus {
+        background-color: #0056b3;
+        border-color: #0056b3;
+    }
+
+    .btn-primary:active, .button-style:active {
+        background-color: #004085;
+        border-color: #004085;
+    }
+
+    .form-label, .register-link {
+        color: #ffffff;
+    }
+
+    .form-control {
+        background-color: #6c757d;
+        color: #ffffff;
+        border-color: #6c757d;
+    }
+
+    .form-control:focus {
+        background-color: #a9a9a9;
+        border-color: #6c757d;
+        box-shadow: none;
+    }
+
+    .navbar-brand {
+        font-size: 24px;
+    }
+
+    .navbar-nav > li > a {
+        margin-right: 20px;
+    }
+
+    /* Apply padding to navbar */
+    .navbar.bg-dark .p-4 {
+        border-radius: 25px;
+    }
+
+    .register-link {
+        transition: color 0.3s;
+        margin-top: 25px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .custom-button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .social-icons {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Increase icon size */
+    .social-icons a {
+        display: inline-block;
+        margin-right: 30px; /* Add margin to separate icons */
+        color: #ffffff;
+        font-size: 100px; /* Adjust size as needed */
+        transition: transform 0.3s; /* Add transition for zoom effect */
+        margin-top: 100px;
+    }
+
+    /* Add zoom effect on hover */
+    .social-icons a:hover {
+        transform: scale(1.2); /* Zoom in by 20% */
+    }
+
+    .social-icons a:hover {
+        color: #0056b3;
+    }
+</style>
+<body>
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand"><b>T</b>ask<b> M</b>anager</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a href="index.html" target="_blank" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="aboutus.html" class="nav-link">About Us</a></li>    
+            </ul>
+            <a href="#" class="button-style">Contact Us</a>
+        </div>
+    </header>
+    <div class="social-icons">
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/_kaushal__kk" target="_blank"><i class="fab fa-instagram"></i></a>
+        
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/your_username" target="_blank"><i class="fab fa-linkedin"></i></a>
+        
+        <!-- Twitter -->
+        <a href="https://twitter.com/your_username" target="_blank"><i class="fab fa-twitter"></i></a>
+        
+        <!-- YouTube -->
+        <a href="https://www.youtube.com/channel/your_channel_id" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+</body>
+</html>
